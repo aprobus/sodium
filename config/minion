@@ -1,0 +1,10 @@
+file_client: local
+
+pillar_roots:
+  base:
+    - /home/aaron/workspace/sodium/pillar
+
+file_roots:
+  base:
+    - /home/aaron/workspace/sodium/states
+    - /home/aaron/workspace/sodium/files

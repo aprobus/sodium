@@ -1,0 +1,3 @@
+#! /bin/sh
+
+salt-call -c ./config state.apply

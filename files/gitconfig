@@ -1,0 +1,10 @@
+[alias]
+  st = status
+  co = checkout
+  nuke = reset --hard HEAD
+  prune = remote prune origin
+[core]
+  editor = vim
+[user]
+  email = "{{ pillar['user']['email'] }}"
+  name = {{ pillar['user']['name'] }}
