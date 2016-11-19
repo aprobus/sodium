@@ -51,3 +51,12 @@ nnoremap <leader>h :split<CR><C-W>j
 
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
 au BufNewFile,BufRead *.json set ft=javascript
+
+" NERDTree
+nnoremap <silent> <C-\> :NERDTreeFind<CR>
+let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
+map <leader>nt :NERDTreeToggle<CR>
+map <leader>nf :NERDTreeFind<CR>
+
+" ZoomWin
+map <leader><leader> :ZoomWin<CR>
