@@ -6,3 +6,4 @@ base:
     - rust
     - java
     - leiningen
+    - zsh

@@ -1,0 +1,7 @@
+export ZSH={{ pillar['user']['home_dir'] }}/.oh-my-zsh
+
+ZSH_THEME="agnoster"
+DEFAULT_USER="{{ pillar['user']['username'] }}"
+plugins=(git vi-mode rake ruby)
+
+source $ZSH/oh-my-zsh.sh
