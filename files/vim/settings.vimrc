@@ -48,6 +48,10 @@ set autowrite
 nnoremap <leader>v <C-W>v<C-W>l
 " Horizontal split
 nnoremap <leader>h :split<CR><C-W>j
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
 au BufNewFile,BufRead *.json set ft=javascript
