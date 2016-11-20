@@ -5,3 +5,4 @@ base:
     - docker
     - rust
     - java
+    - leiningen
