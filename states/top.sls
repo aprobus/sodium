@@ -4,3 +4,4 @@ base:
     - git
     - docker
     - rust
+    - java
