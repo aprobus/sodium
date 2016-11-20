@@ -8,3 +8,5 @@
 [user]
   email = "{{ pillar['user']['email'] }}"
   name = {{ pillar['user']['name'] }}
+[push]
+  default = simple
