@@ -30,7 +30,7 @@ zsh_download_fonts:
 
 zsh_install_fonts:
   cmd.run:
-    - name: ./install
+    - name: ./install.sh
     - cwd: {{ powerline_fonts_dir }}
     - runas: {{ pillar['user']['username'] }}
     - unless: ls {{ pillar['user']['home_dir'] }}/.local/share/fonts/ | grep Meslo
