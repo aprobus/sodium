@@ -6,3 +6,4 @@ base:
     - java
     - leiningen
     - zsh
+    - osquery
