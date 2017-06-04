@@ -4,5 +4,7 @@ ZSH_THEME="agnoster"
 DEFAULT_USER="{{ pillar['user']['username'] }}"
 plugins=(git vi-mode rake ruby)
 
+alias dc=docker-compose
+
 source $ZSH/oh-my-zsh.sh
 source ~/.cargo/env

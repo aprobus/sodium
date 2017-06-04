@@ -64,3 +64,5 @@ map <leader>nf :NERDTreeFind<CR>
 
 " ZoomWin
 map <leader><leader> :ZoomWin<CR>
+
+command! -nargs=1 Vres vertical res <args>
