@@ -7,3 +7,4 @@ base:
     - leiningen
     - zsh
     - osquery
+    - heroku
